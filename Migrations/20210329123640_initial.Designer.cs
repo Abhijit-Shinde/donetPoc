@@ -10,7 +10,7 @@ using dotnetPoc.Data;
 namespace donetPoc.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210329122059_initial")]
+    [Migration("20210329123640_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
