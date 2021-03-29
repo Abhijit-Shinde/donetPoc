@@ -1,6 +1,4 @@
-# donetPoc
-
-##**Testing Api Endpoints:**
+# **Testing Api Endpoints:**
 
 1. Creating New Account
    **POST**  :  http://localhost:5000/api/auth/register
