@@ -45,13 +45,13 @@ namespace dotnetPoc.Controllers
             }
             catch
             {
-                return BadRequest(Errors.AddErrorToModelState("Message", "Somethins Went Wrong", ModelState));
+                return BadRequest(Errors.AddErrorToModelState("Message", "Something Went Wrong", ModelState));
             }
 
             if (await _adminService.AddProduct(model, fileName))
                 return new OkObjectResult(new { Message = "Success" });
 
-            return BadRequest(Errors.AddErrorToModelState("Message", "Somethins Went Wrong", ModelState));
+            return BadRequest(Errors.AddErrorToModelState("Message", "Something Went Wrong", ModelState));
         }
 
 
