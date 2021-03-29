@@ -64,4 +64,4 @@
 9. Returning All Shipments Info.
    **GET**  :  http://localhost:5000/api/admin/AllShipments
    
-Other APi Endpoints are available in Controllers Folder.
+**Other API Endpoints are available in Controllers Folder.**
