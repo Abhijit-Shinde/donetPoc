@@ -1,4 +1,4 @@
-# **Testing Api Endpoints:**
+# **Testing API Endpoints**
 
 1. Creating New Account
    **POST**  :  http://localhost:5000/api/auth/register
